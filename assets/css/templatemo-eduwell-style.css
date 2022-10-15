@@ -877,10 +877,8 @@ section.our-courses ul.nacc li {
 }
 
 section.our-courses ul.nacc li .left-image {
-  position: absolute;
   margin-right: 50px;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 50%;
 }
 
 section.our-courses ul.nacc li .left-image img {
@@ -906,8 +904,10 @@ section.our-courses ul.nacc li .left-image .price h6 {
 }
 
 section.our-courses ul.nacc li .right-content {
+  position: absolute;
   padding: 40px 0px;
-  margin-left: 350px;
+  margin-left: 400px;
+  margin-right: 50px;
 }
 
 section.our-courses ul.nacc li .right-content h4 {
